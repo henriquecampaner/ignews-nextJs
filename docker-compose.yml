@@ -1,0 +1,26 @@
+version: '3'
+
+services: 
+  next:
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    restart: always
+
+    volumes:
+      - ./:/app
+      - /app/node_modules
+      - /app/.next
+
+    ports:
+      - 3000:3000
+  
+  fauna:
+    image: fauna/faunadb:latest
+    ports: 
+      - 8443:8443
+    volumes:
+      - ./fauna-data:/var/lib/fauna/data
+    
