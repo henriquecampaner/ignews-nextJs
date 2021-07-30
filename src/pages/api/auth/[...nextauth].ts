@@ -6,8 +6,8 @@ import { fauna } from '../../../services/fauna';
 export default NextAuth({
   providers: [
     Providers.GitHub({
-      clientId: '98033928bc04edb57e13',
-      clientSecret: '2fb8919486b18af620474d379a119880ed1b5fb8',
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET,
       scope: 'read:user',
     }),
   ],
