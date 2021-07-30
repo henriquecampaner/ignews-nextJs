@@ -46,7 +46,7 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       line_items: [{ price: 'price_1Ib2ACImXrVWDh9eAT9VhZC6', quantity: 1 }],
       mode: 'subscription',
       allow_promotion_codes: true,
-      success_url: `https://${process.env.VERCEL_URL}/post`,
+      success_url: `https://${process.env.VERCEL_URL}/posts`,
       cancel_url: `https://${process.env.VERCEL_URL}/`,
     });
 
