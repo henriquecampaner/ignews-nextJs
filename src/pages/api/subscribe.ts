@@ -46,8 +46,8 @@ export default async (request: NextApiRequest, response: NextApiResponse) => {
       line_items: [{ price: 'price_1Ib2ACImXrVWDh9eAT9VhZC6', quantity: 1 }],
       mode: 'subscription',
       allow_promotion_codes: true,
-      success_url: process.env.STRIPE_SUCCESS_URL,
-      cancel_url: process.env.STRIPE_CANCEL_URL,
+      success_url: `${process.env.VERCEL_URL}/${process.env.STRIPE_SUCCESS_URL}`,
+      cancel_url: `${process.env.VERCEL_URL}${process.env.STRIPE_CANCEL_URL}`,
     });
 
     return response.status(200).json({ sessionId: stripeCheckoutSession.id });
