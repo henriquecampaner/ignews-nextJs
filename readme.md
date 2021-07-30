@@ -7,13 +7,6 @@
 </h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/eliasgcf/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%23EBA417"></a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/ig.news?color=%23EBA417">
-  <a href="https://github.com/EliasGcf/ig.news/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/ig.news?color=%23EBA417"></a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/ig.news?color=%23EBA417">
-</p>
-
-<p align="center">
   <a href="#-about-the-project">About the project</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-getting-started">Getting started</a> •
@@ -74,5 +67,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with 💜&nbsp; by <a href="https://www.linkedin.com/in/eliasgcf/">Elias Gabriel</a>
+  Made with 💜&nbsp; by <a href="https://www.linkedin.com/in/henrique-campaner/">EHenrique Campaner</a>
 </p>
