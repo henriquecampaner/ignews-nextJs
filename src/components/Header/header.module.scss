@@ -56,3 +56,19 @@
     margin-left: auto;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .headerContent {
+    img {
+      width: 10%;
+    }
+
+    nav {
+      margin-left: 2rem;
+    }
+
+    > button {
+      width: 35%;
+    }
+  }
+}

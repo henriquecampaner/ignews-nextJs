@@ -12,7 +12,8 @@
 .hero {
   max-width: 600px;
 
-  > span {
+  > span,
+  h3 {
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -41,5 +42,31 @@
 
   button {
     margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+
+    img {
+      margin-top: 3rem;
+    }
+
+    h3 {
+      margin-top: 3rem;
+    }
+
+    button {
+      margin: 2rem auto 2rem auto;
+    }
+  }
+
+  .hero {
+    order: 2;
   }
 }
